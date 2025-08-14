@@ -27,6 +27,10 @@ ol li::marker {
   color: var(--rose-800);
 }
 
+ul li::marker {
+  font-size: 0.8em;
+}
+
 .container {
   background-color: var(--white);
 }
@@ -111,10 +115,44 @@ header {
 }
 
 .instructions li::marker {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--brown-800);
 }
 
 .instructions li {
   padding: 0 0 10px 20px;
+}
+
+.nutrition p {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+tr:last-of-type {
+  border: none;
+}
+
+td {
+  padding: 10px;
+}
+
+tr td:first-of-type {
+  padding-left: 30px;
+}
+
+tr td:last-of-type {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+.nutrition {
+  margin-bottom: 20px;
 }
