@@ -100,3 +100,21 @@ header {
   padding: 5px 0 5px 20px;
   font-size: 1.1em;
 }
+
+.instructions {
+  border-bottom: 1px solid var(--stone-150);
+  margin-bottom: 40px;
+}
+
+.instructions ol {
+  padding: 0 0 20px 25px;
+}
+
+.instructions li::marker {
+  font-weight: 600;
+  color: var(--brown-800);
+}
+
+.instructions li {
+  padding: 0 0 10px 20px;
+}
