@@ -34,10 +34,14 @@ ol li::marker {
 .heading {
   font-family: "Young Serif", sans-serif;
   line-height: 1;
+  color: var(--brown-800);
+  font-weight: 400;
+  font-size: 1.8em;
+  margin-bottom: 20px;
 }
 
 article {
-  padding: 0 25px;
+  padding: 0 35px;
 }
 
 .banner {
@@ -54,17 +58,17 @@ header {
   margin-bottom: 20px;
 }
 
-header h1 {
+.header-title {
   font-size: 2em;
-  font-weight: 400;
   color: var(--stone-900);
-  margin-bottom: 20px;
 }
 
 .prep-time {
   background-color: var(--rose-50);
   padding: 25px;
   border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
 }
 
 .prep-time h2 {
@@ -72,6 +76,7 @@ header h1 {
   font-family: "Outfit", sans-serif;
   font-size: 1.2em;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .prep-time ul {
@@ -79,5 +84,19 @@ header h1 {
 }
 
 .prep-time li {
-  padding-left: 20px;
+  padding: 5px 0 5px 20px;
+}
+
+.ingredients {
+  border-bottom: 1px solid var(--stone-150);
+  margin-bottom: 40px;
+}
+
+.ingredients ul {
+  padding: 0 0 25px 25px;
+}
+
+.ingredients li {
+  padding: 5px 0 5px 20px;
+  font-size: 1.1em;
 }
