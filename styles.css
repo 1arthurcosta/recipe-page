@@ -156,3 +156,58 @@ tr td:last-of-type {
 .nutrition {
   margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 401px) and (max-width: 700px) {
+  .banner {
+    height: 280px;
+  }
+
+  .header-title {
+    font-size: 2.1em;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  body {
+    background-color: var(--stone-100);
+  }
+
+  .container {
+    background-color: var(--stone-100);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+  }
+
+  .content {
+    background-color: var(--white);
+    min-width: 500px;
+    max-width: 90%;
+    border-radius: 20px;
+    padding: 40px;
+  }
+
+  article {
+    padding: 0;
+  }
+
+  .banner {
+    border-radius: 20px;
+    height: 320px;
+  }
+
+  .nutrition {
+    margin-bottom: 0;
+  }
+
+  .header-title {
+    font-size: 2.2em;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .content {
+    max-width: 850px;
+  }
+}
